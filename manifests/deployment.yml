@@ -16,4 +16,4 @@ spec:
           - containerPort: 8080
           env:
             - name: APPINSIGHTS_INSTRUMENTATIONKEY
-              value:
+              value: 'dfcb6d56-e10c-45c8-b158-cb6276345396'
