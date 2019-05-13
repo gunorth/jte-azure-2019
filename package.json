@@ -9,5 +9,14 @@
   "dependencies": {
     "applicationinsights": "^1.0.0",
     "nodemon": "~1.17.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "mocha-junit-reporter": "^1.22.0",
+    "request": "^2.88.0"
+  },
+  "scripts": {
+    "test": "mocha -reporter mocha-junit-reporter --reporter-options mochaFile=./reports/test-results.xml"
   }
 }
