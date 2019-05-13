@@ -14,3 +14,6 @@ spec:
           image: demojte2019acr.azurecr.io/gunorthjteazure 
           ports:
           - containerPort: 8080
+          env:
+            - name: APPINSIGHTS_INSTRUMENTATIONKEY
+              value:
