@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: gunorthjteazure 
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: gunorthjteazure 
+    spec:
+      containers:
+        - name: gunorthjteazure 
+          image: acrgunorth-microsoft.azurecr.io/gunorthjteazure 
+          ports:
+          - containerPort: 8080
